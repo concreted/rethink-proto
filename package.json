@@ -1,0 +1,24 @@
+{
+  "name": "rethink-proto",
+  "version": "1.0.0",
+  "description": "``` docker-compose -f docker/docker-compose.yml up ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/concreted/rethink-proto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/concreted/rethink-proto/issues"
+  },
+  "homepage": "https://github.com/concreted/rethink-proto#readme",
+  "dependencies": {
+    "rethinkdb": "^2.3.3",
+    "rethinkdb-changefeed-reconnect": "^0.3.1",
+    "rethinkdbdash": "^2.3.27"
+  }
+}

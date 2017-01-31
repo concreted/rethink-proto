@@ -1,0 +1,14 @@
+version: '2'
+services:
+
+  rethinkdb:
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile.rethink
+    ports:
+    - "8080:8080"
+    - "28015:28015"
+    environment:
+    - POSTGRES_USER=pcperini
+    - POSTGRES_DB=mira-local
+    - POSTGRES_PASSWORD=mysecretpassword
